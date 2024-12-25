@@ -1,0 +1,17 @@
+{
+    "MaxBackups": 10,
+    "Debug": true,
+    "TimeFormat": "02012006_150405",
+    "BackupDir": "/pfad/zu/backup/verzeichnis",
+    "Excludes": [
+        // Standard-Excludes bleiben erhalten, hier zusätzliche:
+        "*.mp4",
+        "*.mkv",
+        "downloads/",
+        "tmp/",
+        // Projekt-spezifische Ausschlüsse
+        "large_data/",
+        "private/",
+        "cache/"
+    ]
+} 
